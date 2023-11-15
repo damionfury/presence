@@ -1,0 +1,13 @@
+{
+  "name": "presence",
+  "version": "1.0.0",
+  "description": "App to monitor Slack presence of one or more users and log to somewhere for viewing",
+  "main": "index.js",
+  "author": "Mark Lyon",
+  "license": "CC BY-NC-SA 4.0",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch": "^3.198.0",
+    "@slack/web-api": "^6.7.2",
+    "dotenv": "^16.0.3"
+  }
+}
